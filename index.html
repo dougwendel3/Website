@@ -1,7 +1,108 @@
-<html>
-  <body>
-    <h1>
-      Hello World to Earth
-    </h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Douglas Pelman Wendel III Portfolio</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalsize/7.0.0/normalize.min.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <!--Link to fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <!--- Need to replace the image to a different logo image-->
+                <!---<img src="images/portfolio_logo.png" alt =""> -->
+            </div>
+            <button class="nav-toggle" aria-label="toggel navigation">
+                <span class="Hello"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="class_work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="resume" class="nav__link">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--- This is the introduction section -->
+        <section class ="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, my name is <strong> Douglas Wendel</strong>
+            </h1>
+            <p class = "section__subtitle section__subtitle--intro"> Systems Engineer</p>
+            <img src="images/portfolio_logo.png" alt="a picture of Douglas P. Wendel III" class ="intro__img">
+             
+        </section>
+
+        <!--- My work page-->
+        <section class="my-classwork" id="class_work">
+            <h2 class="section__title section__title--work">My class work throughout college </h2>
+            <div class="work">
+                <div class="Work">
+                    <h3>Personal Projects</h3>
+                    <p>Here you can find a list and the links to the repositories of my personal projects that I am either working on or 
+                        have completed. This ranges from random ideas to my portfoio which you are looking at right now!
+                    </p>
+                </div> <!---work-->
+                <div class="Work">
+                    <h3>Coursework Projects</h3>
+                    <p>This is all of my coursework repositories throughout my 4 years at The University of South Carolina. 
+                        From my entry level java classes, c++ classes, python classes, and much more. Feel free to check out any of 
+                    the other projects on my GitHub and give me a follow!</p>
+                </div> <!---work-->
+                <div class="Work">
+                    <h3>Capstone Project</h3>
+                    <p>My capstone project included myself working along side 4 other developers to develop an application.
+                        The application of our choice we named "Grubber". Grubber is a service provider
+                        to help advertise services in an Uber like way where people and companies can post listings of their work
+                        and whomever is in need of such a service can schedule it. 
+                    </p>
+                </div> <!---work-->
+            </div> <!--closes services-->
+            <a href="#c_work" class="btn">My Class Work</a>
+        </section>
+        <!--About Me Section!-->
+
+        <section class="about-me" id="about">
+            
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Recent graduate with a BS in CIS & BIM</p>
+            
+            <div class="about-me__body">
+                <p>Welcome to my online site/portfolio. I have grown up in a small community/island for my entire life and lets just say internet speeds were a little shy of 10mbps 
+                </p>
+                <p></p>
+            </div>
+            <img src="images/aboutme.png" alt="A picture of Douglas Surfing" class="about-me__img ">
+        </section>
+
+        <!-- Resume Section -->
+        <section class="my-resume" id="resume">
+            <h2 class="section__title">My Resume!</h2>
+            <p class="section__subtitle"></p>
+            <div class="portfolio">
+                <!--Portfolio Item 01-->
+                <a href="#" class="portfolio__item">
+                    <!--<images src="Portfolio-01.jpg" alt= "description on project" class="portfolio__img">-->
+                </a>
+            </div>
+        </section>
+            
+
+        <!-- Footer (includes social media)-->
+        <footer>
+            <a href="mailto:dougwendel3@outlook.com" class="footer__link">dougwendel3@outlook.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.linkedin.com/in/douglaswendel3/">LinkedIn</a></li>
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://github.com/dpwendel">GitHub</a></li>
+            </ul>
+        </footer>
+    </body>
 </html>
